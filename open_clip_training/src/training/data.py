@@ -36,7 +36,7 @@ class CsvDataset(Dataset):
         df = pd.read_csv(input_filename, header='infer', delimiter=',')
         #breakpoint()
         #CHANGE THIS TO YOUR DATA FOLDER
-        fldr = '/content/drive/MyDrive/cseg-tfrm/open_clip_training/openclip_data/'
+        fldr = '/content/drive/MyDrive/openclip_data/'
         masks = df[img_key].tolist()
         captions = df[caption_key].tolist()
         self.masks, self.captions, self.images = [], [], []
