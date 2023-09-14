@@ -1,5 +1,5 @@
 torchrun --nproc_per_node 4 -m training.main_mask_prompt_tuning \
-    --train-data ../openclip_data/coco_proposal_1cap.csv \
+    --train-data /content/drive/MyDrive/openclip_data/coco_proposal_1cap.csv \
     --train-num-samples 442117 \
     --lr 0.05 \
     --mask_wd 0.0 \
