@@ -5,7 +5,7 @@ torchrun --nproc_per_node 1 -m training.main \
     --warmup 100 \
     --force-quick-gelu \
     --dataset-type csv \
-    --batch-size 32 \
+    --batch-size 16 \
     --precision amp \
     --workers 8 \
     --model  ViT-L-14 \
