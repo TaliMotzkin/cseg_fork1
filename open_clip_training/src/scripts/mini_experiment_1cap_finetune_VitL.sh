@@ -1,5 +1,5 @@
 torchrun --nproc_per_node 1 -m training.main \
-    --train-data ../openclip_data/mini_experiment_1cap.csv \
+    --train-data /content/drive/MyDrive/openclip_data/mini_experiment_1cap.csv \
     --train-num-samples 5000 \
     --lr 0.000005 \
     --warmup 100 \
